@@ -204,6 +204,8 @@ Human Detection
 SURVIVOR DETECTED
        ↓
 Human Bounding Box + HUD Alert
+```
+
 🛠️ Technology Stack
 Three.js — 3D rendering and simulation
 JavaScript — simulation logic and interactions
@@ -214,7 +216,6 @@ Procedural 3D Environment — terrain, vegetation, disaster zones and environmen
 🎯 Purpose
 
 DroneEye demonstrates how autonomous UAV systems can support disaster-response operations through:
-
 Navigation + Environmental Monitoring + Hazard Detection + Human Detection + Real-Time Visualization
 
 The simulation provides a visual proof-of-concept for aerial disaster assessment and search-and-rescue workflows.
@@ -226,7 +227,6 @@ drone-disaster-simulation/
 └── README.md
 
 🚀 Running Locally
-
 Because the simulation uses browser-based 3D resources, it is recommended to run it through a local HTTP server instead of opening the HTML file directly.
 
 1. Open the project directory
@@ -237,7 +237,6 @@ python -m http.server 8000
 http://localhost:8000/drone_simulation.html
 
 🔮 Future Extensions
-
 Possible future improvements include:
 
 Real computer-vision detection models
@@ -249,6 +248,11 @@ Disaster-response dashboards
 Real UAV integration
 Live camera-stream processing
 Integration with physical drone hardware
+
+Screenshots
+<img width="1913" height="911" alt="Screenshot 2026-09-30 003308" src="https://github.com/user-attachments/assets/9e3d8ace-6155-4cec-b451-8eb4ad812f29" />
+<img width="1907" height="913" alt="Screenshot 2026-09-30 003247" src="https://github.com/user-attachments/assets/c837ed51-eedd-494e-8beb-9a8e5cd31370" />
+
 
 🚁 DroneEye
 Autonomous aerial monitoring for disaster response.
